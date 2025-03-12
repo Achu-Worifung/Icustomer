@@ -1,0 +1,104 @@
+div .business-list
+{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+input 
+{
+    width: 100px;
+    height: 40px;
+    outline: none;
+    border: none;
+}
+header 
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+}
+select 
+{
+    width: max-content;
+    height: 40px;
+    outline: none;
+    border: none;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: large;
+    font-weight: bold;
+}
+
+div.search 
+{
+    display: flex;
+    flex-direction: row;
+    /* flex-wrap: wrap; */
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px 0 0 10px;
+    padding: 5px;
+    width: fit-content;
+    /* transition: border 1s ease-in-out; */
+
+}
+div.search:hover, div.search:focus-within
+
+
+{
+    cursor: pointer;
+    border: 2px solid rgb(63, 63, 190);
+}
+
+input 
+{
+    max-width: 400px;
+    padding-left: 10px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: large;
+    font-weight: bold;
+    width: 100%;
+    flex-shrink: 1;
+}
+table {
+    width: 90%;
+    border-collapse: separate; 
+    border-spacing: 0 10px; 
+}
+tr td, tr th {
+    text-align: center !important;
+    margin: 0;
+}
+.table-header, .table-header:hover
+{
+    background-color: transparent;
+    margin: 0;
+}
+
+tr
+{
+    margin: 0;
+    background-color: whitesmoke;
+
+}
+tr:hover
+
+{
+    background-color: rgb(63, 63, 190) !important;
+    color: white;
+    cursor: pointer;
+}
+
+
+
+td {
+    text-align: center;
+    /* background-color: whitesmoke; */
+    padding: 10px;
+    text-align: left;
+    border: 1px solid #ddd;
+    margin: 0;
+}

@@ -1,0 +1,5 @@
+
+
+const restoreFullList = (filteredList, fullList) => {
+    
+}
